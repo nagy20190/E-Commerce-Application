@@ -1,0 +1,12 @@
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication.BLL\bin\Debug\net8.0\E-CommerceApplication.BLL.deps.json
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication.BLL\bin\Debug\net8.0\E-CommerceApplication.BLL.dll
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication.BLL\bin\Debug\net8.0\E-CommerceApplication.BLL.pdb
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication.BLL\obj\Debug\net8.0\E-CommerceApplication.BLL.csproj.AssemblyReference.cache
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication.BLL\obj\Debug\net8.0\E-CommerceApplication.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication.BLL\obj\Debug\net8.0\E-CommerceApplication.BLL.AssemblyInfoInputs.cache
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication.BLL\obj\Debug\net8.0\E-CommerceApplication.BLL.AssemblyInfo.cs
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication.BLL\obj\Debug\net8.0\E-CommerceApplication.BLL.csproj.CoreCompileInputs.cache
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication.BLL\obj\Debug\net8.0\E-CommerceApplication.BLL.dll
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication.BLL\obj\Debug\net8.0\refint\E-CommerceApplication.BLL.dll
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication.BLL\obj\Debug\net8.0\E-CommerceApplication.BLL.pdb
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication.BLL\obj\Debug\net8.0\ref\E-CommerceApplication.BLL.dll

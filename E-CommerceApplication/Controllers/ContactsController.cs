@@ -16,9 +16,7 @@ namespace E_CommerceApplication.Controllers
         private readonly IBaseRepository<Subject> _subjectRepository;
         private readonly IContactRepository _contactRepository;
         private readonly EmailSender emailSender;
-        /*
-        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
-         */
+        
 
         public ContactsController(IBaseRepository<Contact> baseRepository,
             IBaseRepository<Subject> subjectRepository,

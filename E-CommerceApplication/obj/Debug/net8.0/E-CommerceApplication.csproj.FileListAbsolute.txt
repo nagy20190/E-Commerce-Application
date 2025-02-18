@@ -184,3 +184,4 @@ D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-Com
 D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
 D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication\obj\Debug\net8.0\E-CommerceApplication.sourcelink.json
