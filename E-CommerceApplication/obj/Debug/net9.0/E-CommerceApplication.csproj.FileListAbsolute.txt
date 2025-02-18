@@ -1,0 +1,6 @@
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication\obj\Debug\net9.0\E-CommerceApplication.csproj.AssemblyReference.cache
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication\obj\Debug\net9.0\E-CommerceApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication\obj\Debug\net9.0\E-CommerceApplication.AssemblyInfoInputs.cache
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication\obj\Debug\net9.0\E-CommerceApplication.AssemblyInfo.cs
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication\obj\Debug\net9.0\E-CommerceApplication.csproj.CoreCompileInputs.cache
+D:\1 - DotNet\DEPI & Courses\12 - Projects\5 - E-Commerce Applications_API\E-CommerceApplication\E-CommerceApplication\E-CommerceApplication\obj\Debug\net9.0\E-CommerceApplication.MvcApplicationPartsAssemblyInfo.cache
