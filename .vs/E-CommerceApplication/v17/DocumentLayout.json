@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{840DBE3E-B9A6-4DFA-A51C-D44FB15595C0}|E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.dal\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840DBE3E-B9A6-4DFA-A51C-D44FB15595C0}|E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj|solutionrelative:e-commerceapplication.dal\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|solutionrelative:e-commerceapplication\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,15 +50,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "E-CommerceApplication.DAL\\Services\\EmailSender.cs",
+              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Services\\EmailSender.cs",
+              "RelativeToolTip": "E-CommerceApplication.DAL\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T03:59:34.297Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CartDTO.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\CartDTO.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\DTO\\CartDTO.cs",
@@ -62,12 +79,11 @@
               "RelativeToolTip": "E-CommerceApplication.BLL\\DTO\\CartDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T01:42:32.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T01:42:32.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CartItemDTO.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\CartItemDTO.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\DTO\\CartItemDTO.cs",
@@ -75,12 +91,11 @@
               "RelativeToolTip": "E-CommerceApplication.BLL\\DTO\\CartItemDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T01:40:59.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T01:40:59.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "OrderHelper.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Services\\OrderHelper.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication.DAL\\Services\\OrderHelper.cs",
@@ -88,25 +103,24 @@
               "RelativeToolTip": "E-CommerceApplication.DAL\\Services\\OrderHelper.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T01:27:08.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T01:27:08.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication\\Controllers\\CartController.cs",
               "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Controllers\\CartController.cs",
               "RelativeToolTip": "E-CommerceApplication\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T01:44:22.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "JWTReader.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Services\\JWTReader.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication.DAL\\Services\\JWTReader.cs",
@@ -114,12 +128,11 @@
               "RelativeToolTip": "E-CommerceApplication.DAL\\Services\\JWTReader.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T01:55:28.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T01:55:28.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\DTO\\UserDTO.cs",
@@ -127,12 +140,11 @@
               "RelativeToolTip": "E-CommerceApplication.BLL\\DTO\\UserDTO.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T05:21:24.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T05:21:24.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserProfileDTO.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\UserProfileDTO.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\DTO\\UserProfileDTO.cs",
@@ -144,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\Models\\User.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\Models\\User.cs",
@@ -156,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Program.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication\\Program.cs",

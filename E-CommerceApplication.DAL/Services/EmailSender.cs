@@ -13,8 +13,8 @@ namespace E_CommerceApplication.DAL.Services
     {
         public async Task SendEmail(string subject, string toEmail, string userName, string message)
         {
-            // var apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
-            var apiKey = "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";
+            var apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
+            //  var apiKey = "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";
             var client = new SendGridClient(apiKey);
             var from = new EmailAddress("mopp906k@gmail.com", "Mostafa Nagy E-Commerce");
             var to = new EmailAddress(toEmail, userName);

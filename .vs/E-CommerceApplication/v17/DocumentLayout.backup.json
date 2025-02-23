@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.bll\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|solutionrelative:e-commerceapplication.bll\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|solutionrelative:e-commerceapplication\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.bll\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|solutionrelative:e-commerceapplication.bll\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.bll\\dto\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,12 +54,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CartDTO.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\CartDTO.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\DTO\\CartDTO.cs",
-              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\CartDTO.cs*",
-              "RelativeToolTip": "E-CommerceApplication.BLL\\DTO\\CartDTO.cs*",
+              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\CartDTO.cs",
+              "RelativeToolTip": "E-CommerceApplication.BLL\\DTO\\CartDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T01:42:32.371Z",
@@ -93,13 +93,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Controllers\\CartController.cs*",
-              "RelativeToolTip": "E-CommerceApplication\\Controllers\\CartController.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAQwBYAAAAIAAAAAAAAAA==",
+              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Controllers\\CartController.cs",
+              "RelativeToolTip": "E-CommerceApplication\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T01:44:22.3Z",
               "EditorCaption": ""
