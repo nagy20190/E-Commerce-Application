@@ -1,4 +1,5 @@
-﻿using System.IdentityModel.Tokens.Jwt;
+﻿using System.ComponentModel.DataAnnotations;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using E_CommerceApplication.BLL.DTO;
@@ -34,6 +35,34 @@ namespace E_CommerceApplication.Controllers
             _passwordResetRepository = passwordResetRepository;
             _emailSender = emailSender;
         }
+        private string CreateJwToken(User user)
+        {
+            List<Claim> claims = new List<Claim>()
+            {
+                // the user id
+                new Claim("id", "" + user.Id /* the "" because the Claim object takes two stirng paramts*/),
+                new Claim("role", "" + user.Role /* we add role here to do the auth with auth middlware*/),
+
+            };
+
+            string scrtKey = _configuration["JWTSettings:Key"]!;
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(scrtKey));
+
+            var credintials = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["JWTSettings:Issuer"],
+                audience: _configuration["JWTSettings:Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddDays(2), // Token Valid for 2 Days,
+                signingCredentials: credintials
+                );
+
+            var jwt = new JwtSecurityTokenHandler().WriteToken(token);
+            return jwt;
+        }
+
 
         // Register users
         [HttpPost("Register")]
@@ -191,9 +220,159 @@ namespace E_CommerceApplication.Controllers
                 token + "\n\n" +
                 "Best Regards\n";
 
-            await _emailSender.SendEmail(emailSubject, email, username, emailMessage);
+            try
+            {
+                await _emailSender.SendEmail(emailSubject, email, username, emailMessage);
+
+            }
+            catch(Exception)
+            {
+                return StatusCode(500, "");
+            }
+
             return Ok();
         }
+
+
+        [HttpPost("ResetPassword")]
+        public async Task<IActionResult> ResetPassword(string token, string password)
+        {
+            var passReset = await _passwordResetRepository.Find(r => r.Token == token);
+
+            if (passReset == null)
+            {
+                ModelState.AddModelError("Token", "Wrong Expired Token");
+                return BadRequest(ModelState);
+            }
+
+            var user = await _userRepository.GetUserByEmail(passReset.Email);
+            if (user == null)
+            {
+                ModelState.AddModelError("Token", "Wrong or Expired Token");
+                return BadRequest(ModelState);
+            }
+
+            var passwordHasher = new PasswordHasher<User>();
+            string encryptedPassword = passwordHasher.HashPassword(new User(), password);
+
+            user.Password = encryptedPassword;
+
+            await _passwordResetRepository.DeleteAsync(passReset);
+            return Ok();
+        }
+
+
+        [Authorize]
+        [HttpGet("Profile")]
+        public async Task<IActionResult> GetProfile()
+        {
+            var identity = User.Identity as ClaimsIdentity;
+            if (identity == null)
+            {
+                return Unauthorized();
+            }
+            var claim = identity.Claims.FirstOrDefault(c => c.Type.ToLower() == "id");
+            if (claim == null) return Unauthorized();
+
+            int id;
+            try
+            {
+                id = int.Parse(claim.Value);
+            }
+            catch (Exception ex)
+            {
+                return Unauthorized();
+            }
+            var user = await _baseRepository.GetByIdAsync(id);
+            if (user == null)
+            { return Unauthorized(); }
+
+            var userProfile = new UserProfileDTO()
+            {
+                Id = user.Id,
+                firstName = user.FirstName,
+                lastName = user.LastName,
+                email = user.Email,
+                address = user.Address,
+                Role = user.Role,
+                CreatedAt = user.CreatedAt,
+                phone = user.Phone,
+            };
+            return Ok(userProfile);
+        }
+
+
+        [Authorize]
+        [HttpPut("UpdateProfile")]
+        public async Task<IActionResult> UpdateProfile(UserProfileUpdateDTO userDTO)
+        {
+            int id = JWTReader.GetUserId(User); // read id of the user from the token
+            var user = await _baseRepository.GetByIdAsync(id);
+
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+
+            // update the data 
+            try
+            {
+                user.FirstName = userDTO.firstName;
+                user.LastName = userDTO.lastName;
+                user.Email = userDTO.email;
+                user.Address = userDTO.address;
+                user.Phone = userDTO.phone??"";
+
+                await _baseRepository.UpdateAsync(user);
+            }
+            catch(Exception)
+            {
+                return StatusCode(500, "an error occurec while updating user profile");
+            }
+            return Ok();
+        }
+
+
+        [Authorize]
+        [HttpPut("UpdatePassword")]
+        public async Task<IActionResult> UpdatePassword([Required, MinLength(8), MaxLength(200)]string password)
+        {
+            int id = JWTReader.GetUserId(User); // read id of the user from the token
+            var user = await _baseRepository.GetByIdAsync(id);
+            if (user == null)
+                return Unauthorized(); // if no users with this id it's unauthorize
+
+            var passwordHasher = new PasswordHasher<User>();
+            string encryptedPassword = passwordHasher.HashPassword(new User(), password);
+
+            user.Password = encryptedPassword;
+            await _baseRepository.UpdateAsync(user);
+            return Ok();
+        }
+
+        //private int GetUserId()
+        //{
+        //    // read user identity & calims & id of the user
+        //    var identity = User.Identity as ClaimsIdentity;
+        //    if (identity == null)
+        //    {
+        //        return -1; // if no user 
+        //    }
+        //    var claim = identity.Claims.FirstOrDefault(c => c.Type.ToLower() == "id");
+        //    if (claim == null) return -1; // 
+
+        //    int id;
+        //    try
+        //    {
+        //        id = int.Parse(claim.Value);
+        //    }
+        //    catch (Exception)
+        //    {
+        //        return 0;
+        //    }
+        //    return id;
+        //} // not practical cause there is another controllers may have to read the Token
+
 
 
 
@@ -218,35 +397,6 @@ namespace E_CommerceApplication.Controllers
 
 
         // CreateToken (JWT) --> Search ?
-        private string CreateJwToken(User user)
-        {
-            List<Claim> claims = new List<Claim>()
-            {
-                // the user id
-                new Claim("id", "" + user.Id /* the "" because the Claim object takes two stirng paramts*/),
-                new Claim("role", "" + user.Role /* we add role here to do the auth with auth middlware*/),
-
-            };
-
-            string scrtKey = _configuration["JWTSettings:Key"]!;
-
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(scrtKey));
-
-            var credintials = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
-
-            var token = new JwtSecurityToken(
-                issuer: _configuration["JWTSettings:Issuer"],
-                audience: _configuration["JWTSettings:Audience"],
-                claims: claims,
-                expires: DateTime.Now.AddDays(2), // Token Valid for 2 Days,
-                signingCredentials: credintials
-                );
-
-            var jwt = new JwtSecurityTokenHandler().WriteToken(token);
-            return jwt;
-        }
-        
-
 
         #region TestAuthorization
         //[Authorize]
@@ -270,7 +420,6 @@ namespace E_CommerceApplication.Controllers
         //    return Ok("You are Authorized");
         //}
         #endregion
-
 
         //[HttpGet("TestToken")]
         //public IActionResult TestToken()

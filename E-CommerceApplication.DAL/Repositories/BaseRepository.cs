@@ -6,6 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using E_CommerceApplication.BLL.Interfaces;
+using E_CommerceApplication.BLL.Models;
 using E_CommerceApplication.DAL.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -34,6 +35,11 @@ namespace E_CommerceApplication.DAL.Repositories
         {
             _context.Set<T>().Remove(entity);
             await _context.SaveChangesAsync();
+        }
+        public IQueryable<T> query()
+        {
+            var query = _context.Set<T>();
+            return query;
         }
 
         public async Task DeleteRange(T entities)

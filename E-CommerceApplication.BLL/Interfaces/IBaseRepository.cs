@@ -4,6 +4,8 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using E_CommerceApplication.BLL.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace E_CommerceApplication.BLL.Interfaces
 {
@@ -20,5 +22,7 @@ namespace E_CommerceApplication.BLL.Interfaces
         Task<IEnumerable<T>> FindAllMatchesWithAnotherList(Expression<Func<T, bool>> match, string[] includes = null);
         // Add 
         Task<int> Count();
+
+        IQueryable<T> query();
     }
 }

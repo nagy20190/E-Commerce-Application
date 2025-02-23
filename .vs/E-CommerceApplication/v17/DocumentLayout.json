@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|solutionrelative:e-commerceapplication\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|solutionrelative:e-commerceapplication\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840DBE3E-B9A6-4DFA-A51C-D44FB15595C0}|E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.dal\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840DBE3E-B9A6-4DFA-A51C-D44FB15595C0}|E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj|solutionrelative:e-commerceapplication.dal\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.bll\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|solutionrelative:e-commerceapplication.bll\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|solutionrelative:e-commerceapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.bll\\dto\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|solutionrelative:e-commerceapplication.bll\\dto\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|solutionrelative:e-commerceapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{840DBE3E-B9A6-4DFA-A51C-D44FB15595C0}|E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.dal\\services\\orderhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840DBE3E-B9A6-4DFA-A51C-D44FB15595C0}|E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj|solutionrelative:e-commerceapplication.dal\\services\\orderhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.bll\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|solutionrelative:e-commerceapplication.bll\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{840DBE3E-B9A6-4DFA-A51C-D44FB15595C0}|E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.dal\\services\\jwtreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840DBE3E-B9A6-4DFA-A51C-D44FB15595C0}|E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj|solutionrelative:e-commerceapplication.dal\\services\\jwtreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.bll\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|solutionrelative:e-commerceapplication.bll\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.bll\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|solutionrelative:e-commerceapplication.bll\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840DBE3E-B9A6-4DFA-A51C-D44FB15595C0}|E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.dal\\repositories\\accountrepository.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840DBE3E-B9A6-4DFA-A51C-D44FB15595C0}|E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj|solutionrelative:e-commerceapplication.dal\\repositories\\accountrepository.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840DBE3E-B9A6-4DFA-A51C-D44FB15595C0}|E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.dal\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840DBE3E-B9A6-4DFA-A51C-D44FB15595C0}|E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj|solutionrelative:e-commerceapplication.dal\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0EB2A1E-D738-446E-9E8C-882BA5A82999}|E-CommerceApplication\\E-CommerceApplication.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.bll\\dto\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|solutionrelative:e-commerceapplication.bll\\dto\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|d:\\1 - dotnet\\depi \u0026 courses\\12 - projects\\5 - e-commerce applications_api\\e-commerceapplication\\e-commerceapplication\\e-commerceapplication.bll\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13AEB1DC-360F-4262-BB5C-E88F2699AEBE}|E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj|solutionrelative:e-commerceapplication.bll\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,92 +55,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Services\\EmailSender.cs",
-              "RelativeDocumentMoniker": "E-CommerceApplication.DAL\\Services\\EmailSender.cs",
-              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Services\\EmailSender.cs",
-              "RelativeToolTip": "E-CommerceApplication.DAL\\Services\\EmailSender.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAowA8AAABQAAAAAAAAAA==",
+              "Title": "CartDTO.cs",
+              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\CartDTO.cs",
+              "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\DTO\\CartDTO.cs",
+              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\CartDTO.cs",
+              "RelativeToolTip": "E-CommerceApplication.BLL\\DTO\\CartDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T04:50:47.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ContactsController.cs",
-              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Controllers\\ContactsController.cs",
-              "RelativeDocumentMoniker": "E-CommerceApplication\\Controllers\\ContactsController.cs",
-              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Controllers\\ContactsController.cs",
-              "RelativeToolTip": "E-CommerceApplication\\Controllers\\ContactsController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T04:45:46.548Z",
+              "WhenOpened": "2025-02-23T01:42:32.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\appsettings.json",
-              "RelativeDocumentMoniker": "E-CommerceApplication\\appsettings.json",
-              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\appsettings.json",
-              "RelativeToolTip": "E-CommerceApplication\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-18T04:49:51.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Repositories\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "E-CommerceApplication.DAL\\Repositories\\BaseRepository.cs",
-              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Repositories\\BaseRepository.cs",
-              "RelativeToolTip": "E-CommerceApplication.DAL\\Repositories\\BaseRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "CartItemDTO.cs",
+              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\CartItemDTO.cs",
+              "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\DTO\\CartItemDTO.cs",
+              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\CartItemDTO.cs",
+              "RelativeToolTip": "E-CommerceApplication.BLL\\DTO\\CartItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T02:35:12.991Z"
+              "WhenOpened": "2025-02-23T01:40:59.469Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "E-CommerceApplication\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "E-CommerceApplication\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMIAAAAYAAAAAAAAAA==",
+              "Title": "OrderHelper.cs",
+              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Services\\OrderHelper.cs",
+              "RelativeDocumentMoniker": "E-CommerceApplication.DAL\\Services\\OrderHelper.cs",
+              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Services\\OrderHelper.cs",
+              "RelativeToolTip": "E-CommerceApplication.DAL\\Services\\OrderHelper.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T04:39:46.148Z"
+              "WhenOpened": "2025-02-23T01:27:08.45Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccountRepository.cs.cs",
-              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Repositories\\AccountRepository.cs.cs",
-              "RelativeDocumentMoniker": "E-CommerceApplication.DAL\\Repositories\\AccountRepository.cs.cs",
-              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Repositories\\AccountRepository.cs.cs",
-              "RelativeToolTip": "E-CommerceApplication.DAL\\Repositories\\AccountRepository.cs.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAqwB0AAABJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "E-CommerceApplication\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Controllers\\CartController.cs",
+              "RelativeToolTip": "E-CommerceApplication\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T05:34:57.416Z"
+              "WhenOpened": "2025-02-23T01:44:22.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IAccountRepository.cs",
-              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\Interfaces\\IAccountRepository.cs",
-              "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\Interfaces\\IAccountRepository.cs",
-              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\Interfaces\\IAccountRepository.cs",
-              "RelativeToolTip": "E-CommerceApplication.BLL\\Interfaces\\IAccountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAPAAAAAAAAAA==",
+              "Title": "JWTReader.cs",
+              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Services\\JWTReader.cs",
+              "RelativeDocumentMoniker": "E-CommerceApplication.DAL\\Services\\JWTReader.cs",
+              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Services\\JWTReader.cs",
+              "RelativeToolTip": "E-CommerceApplication.DAL\\Services\\JWTReader.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T05:38:23.338Z"
+              "WhenOpened": "2025-02-22T01:55:28.97Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\DTO\\UserDTO.cs",
+              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "E-CommerceApplication.BLL\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T05:21:24.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UserProfileDTO.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\UserProfileDTO.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\DTO\\UserProfileDTO.cs",
@@ -160,19 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\UserDTO.cs",
-              "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\DTO\\UserDTO.cs",
-              "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\DTO\\UserDTO.cs",
-              "RelativeToolTip": "E-CommerceApplication.BLL\\DTO\\UserDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T05:21:24.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\Models\\User.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication.BLL\\Models\\User.cs",
@@ -184,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication\\Program.cs",
               "RelativeDocumentMoniker": "E-CommerceApplication\\Program.cs",

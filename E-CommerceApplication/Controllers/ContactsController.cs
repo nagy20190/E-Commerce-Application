@@ -3,6 +3,7 @@ using E_CommerceApplication.BLL.DTO;
 using E_CommerceApplication.BLL.Interfaces;
 using E_CommerceApplication.BLL.Models;
 using E_CommerceApplication.DAL.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -30,6 +31,7 @@ namespace E_CommerceApplication.Controllers
             //_mapper = mapper;
         }
 
+        [Authorize(Roles = "admin")]
         [HttpGet(nameof(GetSubjects))]
         public async Task<IActionResult> GetSubjects()
         {
@@ -38,7 +40,8 @@ namespace E_CommerceApplication.Controllers
                 return NotFound("no subjects");
             return Ok(subjects);
         }
-
+        
+        [Authorize(Roles = "admin")]
         [HttpGet]
         public async Task<IActionResult> GetAll(int? page)
         {
@@ -84,6 +87,8 @@ namespace E_CommerceApplication.Controllers
             return Ok(response);
         }
 
+
+        [Authorize(Roles = "admin")]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetContactById(int id)
         {
@@ -108,6 +113,8 @@ namespace E_CommerceApplication.Controllers
             return Ok(contactDTO);
         }
 
+
+        // any user can create contact 
         [HttpPost]
         public async Task<IActionResult> CreateContact(ContactDTO contactDTO)
         {
@@ -156,31 +163,34 @@ namespace E_CommerceApplication.Controllers
             return Ok(contactDTO);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateContact(int id, [FromBody] ContactDTO contactDTO)
-        {
-            var contact = await _baseRepository.GetByIdAsync(id);
-            if (contact == null)
-            { return NotFound("not found"); }
+        
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> UpdateContact(int id, [FromBody] ContactDTO contactDTO)
+        //{
+        //    var contact = await _baseRepository.GetByIdAsync(id);
+        //    if (contact == null)
+        //    { return NotFound("not found"); }
 
-            try
-            {
-                contact.Message = contactDTO.Message;
-                contact.Email = contactDTO.Email;
-                contact.Phone = contactDTO.Phone ?? "";
-                contact.FirstName = contactDTO.FirstName;
-                contact.LastName = contactDTO.LastName;
-                contact.Subject = contactDTO.subject;
+        //    try
+        //    {
+        //        contact.Message = contactDTO.Message;
+        //        contact.Email = contactDTO.Email;
+        //        contact.Phone = contactDTO.Phone ?? "";
+        //        contact.FirstName = contactDTO.FirstName;
+        //        contact.LastName = contactDTO.LastName;
+        //        contact.Subject = contactDTO.subject;
 
-                await _baseRepository.UpdateAsync(contact);
-            }
-            catch (Exception)
-            {
-                return StatusCode(500,"An error code while updating the contact");
-            }
-           return Ok(contactDTO);
-        }
+        //        await _baseRepository.UpdateAsync(contact);
+        //    }
+        //    catch (Exception)
+        //    {
+        //        return StatusCode(500,"An error code while updating the contact");
+        //    }
+        //   return Ok(contactDTO);
+        //}
 
+
+        [Authorize(Roles = "admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

@@ -1,6 +1,7 @@
 ﻿using E_CommerceApplication.BLL.DTO;
 using E_CommerceApplication.BLL.Interfaces;
 using E_CommerceApplication.BLL.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -168,6 +169,7 @@ namespace E_CommerceApplication.Controllers
             return Ok(listCategories);
         }
 
+        [Authorize(Roles = "admin")]
         [HttpPost(nameof(CreateProduct))]
         public async Task<IActionResult> CreateProduct([FromForm] ProductDTO productDTO)
         {
@@ -251,6 +253,8 @@ namespace E_CommerceApplication.Controllers
             return Ok(productDTO);
         }
 
+
+        [Authorize(Roles = "admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(int id, [FromForm] ProductDTO productDTO)
         {
@@ -320,6 +324,7 @@ namespace E_CommerceApplication.Controllers
             return Ok(productDTO);
         }
 
+        [Authorize(Roles = "admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
