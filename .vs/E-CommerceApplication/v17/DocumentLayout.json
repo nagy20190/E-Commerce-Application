@@ -90,8 +90,7 @@
               "RelativeToolTip": "E-CommerceApplication.DAL\\Services\\OrderHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T21:25:06.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T21:25:06.563Z"
             },
             {
               "$type": "Document",
@@ -149,7 +148,7 @@
               "RelativeDocumentMoniker": "E-CommerceApplication.DAL\\Services\\EmailSender.cs",
               "ToolTip": "D:\\1 - DotNet\\DEPI \u0026 Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\Services\\EmailSender.cs",
               "RelativeToolTip": "E-CommerceApplication.DAL\\Services\\EmailSender.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T03:59:34.297Z",
               "EditorCaption": ""
@@ -176,8 +175,7 @@
               "RelativeToolTip": "E-CommerceApplication\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T20:56:57.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T20:56:57.083Z"
             }
           ]
         }
