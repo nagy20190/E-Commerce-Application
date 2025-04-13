@@ -30,6 +30,7 @@ namespace E_CommerceApplication
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddTransient<EmailSender>();
 
             // confige swagger to allow Jwt
             //builder.Services.AddSwaggerGen();
