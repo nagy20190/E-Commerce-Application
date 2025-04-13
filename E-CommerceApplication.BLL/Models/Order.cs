@@ -12,9 +12,7 @@ namespace E_CommerceApplication.BLL.Models
     public class Order : IEntity
     {
         public int Id { get; set; }
-
         public int UserId { get; set; }
-
         public DateTime CreatedAt { get; set; }
 
         [Precision(16, 2)]
@@ -31,7 +29,6 @@ namespace E_CommerceApplication.BLL.Models
 
         [MaxLength(30)]
         public string OrderStatus { get; set; } = "";
-
 
         // navigation properties
         public User User { get; set; } = null!;

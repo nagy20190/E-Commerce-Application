@@ -26,6 +26,8 @@ namespace E_CommerceApplication
             // Add services to the container.
 
             builder.Services.AddControllers();
+             
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
 
@@ -102,7 +104,7 @@ namespace E_CommerceApplication
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
-                app.UseSwaggerUI();
+                app.UseSwaggerUI(); 
             }
 
 
