@@ -2,6 +2,10 @@
 
 This is an ASP.NET Core Web API E-Commerce Application.
 
+![.NET](https://img.shields.io/badge/.NET-8.0-blue)
+![Build Status](https://github.com/username/repo/actions/workflows/ci.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 ## Features
 
 - Product image upload, update, and deletion (with static file serving from wwwroot/images/products)
