@@ -1,40 +1,39 @@
-# E-CommerceApplication
+# E‑Commerce Application
 
-This is an ASP.NET Core Web API E-Commerce Application.
+<!-- badges: start -->
 
-![.NET](https://img.shields.io/badge/.NET-8.0-blue)
-![Build Status](https://github.com/username/repo/actions/workflows/ci.yml/badge.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/USERNAME/REPO/ci.yml?branch=main)]
+[![Build Status](https://img.shields.io/github/actions/workflow/status/USERNAME/REPO/ci.yml?branch=main)]
+
+<!-- badges: end -->
+
+## 🎬 Demo
+
+![Swagger UI screenshot](docs/swagger.png)
 
 ## Features
 
-- Product image upload, update, and deletion (with static file serving from wwwroot/images/products)
-- Role-based authorization (admin/client) for sensitive operations (e.g., product management)
-- User authentication and management
-- Product catalog
-- Shopping cart
-- Order processing
-- Contact form
-- JWT-based authentication and authorization
-- User registration, login, profile management, and password reset
-- Admin and client user roles
-- Product catalog with CRUD operations
+- User authentication and management (registration, login, profile, password reset)
+- JWT-based authentication and role-based authorization (admin/client)
+- Product catalog with CRUD operations (admin only for create/update/delete)
+- Product image upload, update, and deletion (static file serving from `wwwroot/images/products`)
 - Shopping cart management (add, remove, view items)
 - Order creation, viewing, and pagination
 - Payment method selection for orders
 - Contact form handling
-- Email sending (for password reset, etc.)
-- API endpoints documented with Swagger/OpenAPI
+- Email integration (e.g., SendGrid) for notifications like password reset
+- API endpoints documented and testable via Swagger/OpenAPI (with JWT support in Swagger UI)
+- Middleware and filters for request/response processing, statistics, and debugging
 - Entity Framework Core with SQL Server for data access
 - Repository pattern for data abstraction
 - DTOs for data transfer between layers
-- Static file serving (e.g., product images)
-- Secure password hashing
-- Pagination support for order and user listings
-- Error handling and validation for API endpoints
+- Secure password hashing using ASP.NET Core Identity
+- Use of AutoMapper for object mapping between entities and DTOs
 - Modular architecture with separation of concerns (Controllers, BLL, DAL, DTOs, Repositories)
-- Middleware and filters for request statistics and debugging
-- Environment-based configuration (e.g., appsettings.Development.json)
+- Environment-based configuration (e.g., `appsettings.Development.json`)
+- Static file serving (e.g., product images)
+- Error handling and validation for API endpoints
+- Pagination support for order and user listings
 
 ## Getting Started
 
@@ -50,15 +49,11 @@ This is an ASP.NET Core Web API E-Commerce Application.
 - `E-CommerceApplication.BLL/` - Business logic layer
 - `E-CommerceApplication.DAL/` - Data access layer
 
-Tech Stack/Dependencies:
-ASP.NET Core 8.0
-Entity Framework Core 9.0 (with SQL Server)
-Swashbuckle/Swagger for API docs
-AutoMapper for mapping
-SendGrid for email
-JWT for authentication
-
 ## Requirements
 
 - .NET 8.0 SDK
 - SQL Server
+
+## License
+
+MIT
