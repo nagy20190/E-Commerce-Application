@@ -1,59 +1,55 @@
 # E‑Commerce Application
 
-<!-- badges: start -->
+[![.NET](https://img.shields.io/badge/.NET-8.0-blue?logo=dotnet)]
+[![CI](https://img.shields.io/github/actions/workflow/status/USERNAME/REPO/ci.yml?label=CI&branch=main)]
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/USERNAME/REPO/ci.yml?branch=main)]
-[![Build Status](https://img.shields.io/github/actions/workflow/status/USERNAME/REPO/ci.yml?branch=main)]
+## 📌 Table of Contents
 
-<!-- badges: end -->
+- [Overview](#overview)
+- [Demo](#demo)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage Examples](#usage-examples)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## 🎯 Overview
+
+A .NET 8 Web API for e-commerce built with EF Core 9 and SQL Server.  
+Supports user management, product catalog, shopping cart, orders, payment, and email notifications.
 
 ## 🎬 Demo
 
-![Swagger UI screenshot](docs/swagger.png)
+![App Demo](docs/swagger.png)
+_You can replace with a GIF showcasing key flows like product creation, cart, and orders._
 
-## Features
+## ✅ Features
 
-- User authentication and management (registration, login, profile, password reset)
-- JWT-based authentication and role-based authorization (admin/client)
-- Product catalog with CRUD operations (admin only for create/update/delete)
-- Product image upload, update, and deletion (static file serving from `wwwroot/images/products`)
-- Shopping cart management (add, remove, view items)
-- Order creation, viewing, and pagination
-- Payment method selection for orders
-- Contact form handling
-- Email integration (e.g., SendGrid) for notifications like password reset
-- API endpoints documented and testable via Swagger/OpenAPI (with JWT support in Swagger UI)
-- Middleware and filters for request/response processing, statistics, and debugging
-- Entity Framework Core with SQL Server for data access
-- Repository pattern for data abstraction
-- DTOs for data transfer between layers
-- Secure password hashing using ASP.NET Core Identity
-- Use of AutoMapper for object mapping between entities and DTOs
-- Modular architecture with separation of concerns (Controllers, BLL, DAL, DTOs, Repositories)
-- Environment-based configuration (e.g., `appsettings.Development.json`)
-- Static file serving (e.g., product images)
-- Error handling and validation for API endpoints
-- Pagination support for order and user listings
+- User registration, login, profile management, and password reset
+- JWT authentication and role-based authorization
+- Product catalog CRUD (admin-only for create/update/delete)
+- Product image upload and serving from `wwwroot/images/products`
+- Shopping cart: add, remove, and list items
+- Order creation with pagination and payment method selection
+- Contact form endpoint
+- Email notifications via SendGrid (password resets, order confirmation)
+- Swagger/OpenAPI documentation and JWT support in UI
+- Middleware for custom logging, stats, and error handling
+- EF Core with repository pattern for data access
+- DTOs for clean data transfer between layers
+- Secure password hashing using Identity
+- AutoMapper integration
+- Environment-based config (`appsettings.*.json`)
+- Static file hosting
+- Validation, error handling, and API-level pagination
 
-## Getting Started
+## 🚀 Getting Started
 
-1. Clone the repository.
-2. Open the solution in Visual Studio.
-3. Update the database connection string in `appsettings.json`.
-4. Run database migrations.
-5. Start the application.
-
-## Project Structure
-
-- `E-CommerceApplication/` - Main web API project
-- `E-CommerceApplication.BLL/` - Business logic layer
-- `E-CommerceApplication.DAL/` - Data access layer
-
-## Requirements
-
-- .NET 8.0 SDK
-- SQL Server
-
-## License
-
-MIT
+```bash
+git clone https://github.com/USERNAME/REPO.git
+cd REPO
+dotnet ef database update
+dotnet run
+```
