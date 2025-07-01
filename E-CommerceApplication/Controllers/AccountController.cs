@@ -64,6 +64,8 @@ namespace E_CommerceApplication.Controllers
         }
 
 
+
+
         // Register users
         [HttpPost("Register")]
         public async Task<IActionResult> Register(UserDTO userDTO)

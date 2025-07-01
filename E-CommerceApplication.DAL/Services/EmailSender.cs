@@ -6,16 +6,20 @@ namespace E_CommerceApplication.DAL.Services
 {
     public class EmailSender
     {
-        private readonly string _apiKey;
+        private readonly string apiKey;
+        private readonly string fromEmail;
+        private readonly string senderName;
 
         public EmailSender(IConfiguration configuration)
         {
-            _apiKey = configuration["SendGrid:ApiKey"];
+            apiKey = configuration["EmailSender:ApiKey"]!;
+            fromEmail = configuration["EmailSender:FromEmail"]!;
+            senderName = configuration["EmailSender:SenderName"]!;
         }
 
         public async Task SendEmail(string subject, string toEmail, string userName, string message)
         {
-            var client = new SendGridClient(_apiKey);
+            var client = new SendGridClient(apiKey);
             var from = new EmailAddress("mopp906k@gmail.com", "Mostafa Nagy E-Commerce");
             var to = new EmailAddress(toEmail, userName);
             var plainTextContent = message;

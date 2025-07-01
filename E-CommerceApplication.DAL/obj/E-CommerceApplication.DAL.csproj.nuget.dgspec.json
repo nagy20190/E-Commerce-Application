@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj": {}
+    "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\4 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj": {}
   },
   "projects": {
-    "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj": {
+    "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\4 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj",
+        "projectUniqueName": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\4 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj",
         "projectName": "E-CommerceApplication.BLL",
-        "projectPath": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj",
+        "projectPath": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\4 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj",
         "packagesPath": "C:\\Users\\MG\\.nuget\\packages\\",
-        "outputPath": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\obj\\",
+        "outputPath": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\4 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -79,18 +79,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj": {
+    "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\4 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj",
+        "projectUniqueName": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\4 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj",
         "projectName": "E-CommerceApplication.DAL",
-        "projectPath": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj",
+        "projectPath": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\4 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\E-CommerceApplication.DAL.csproj",
         "packagesPath": "C:\\Users\\MG\\.nuget\\packages\\",
-        "outputPath": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\obj\\",
+        "outputPath": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\4 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -111,8 +111,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj": {
-                "projectPath": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\5 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj"
+              "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\4 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj": {
+                "projectPath": "D:\\1 - DotNet\\DEPI & Courses\\12 - Projects\\4 - E-Commerce Applications_API\\E-CommerceApplication\\E-CommerceApplication\\E-CommerceApplication.BLL\\E-CommerceApplication.BLL.csproj"
               }
             }
           }
@@ -127,7 +127,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -168,7 +168,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
